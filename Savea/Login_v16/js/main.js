@@ -32,11 +32,7 @@
             }
         }
 
-        if (check == true) {
-            alert("subo");
-            //document.formulario.submit(); 
 
-        }
     });
 
 
