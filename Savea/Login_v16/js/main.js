@@ -19,9 +19,10 @@
   
     /*==================================================================
     [ Validate ]*/
-    var input = $('.validate-input .input100');
 
-    $('.validate-form').on('submit',function(){
+
+    $(".login100-form-btn").click(function (event) {
+        var input = $('.validate-input .input100');
         var check = true;
 
         for(var i=0; i<input.length; i++) {
@@ -31,7 +32,11 @@
             }
         }
 
-        return check;
+        if (check == true) {
+            alert("subo");
+            //document.formulario.submit(); 
+
+        }
     });
 
 

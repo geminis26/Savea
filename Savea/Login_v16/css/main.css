@@ -317,8 +317,8 @@ iframe {
 }
 
 .has-val.input100 + .focus-input100::after {
-  left: 23px;
-  color: #d41872;
+    left: 23px;
+    color: blue;
 }
 
 .has-val.input100 + .focus-input100::before {
