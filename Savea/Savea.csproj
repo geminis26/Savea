@@ -262,6 +262,20 @@
     <Content Include="Login_v16\vendor\select2\select2.js" />
     <Content Include="Login_v16\vendor\select2\select2.min.css" />
     <Content Include="Login_v16\vendor\select2\select2.min.js" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\css\component.css" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\css\demo.css" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\css\organicfoodicons.css" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\favicon.ico" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\bpicons\bpicons.svg" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\bpicons\license.txt" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\feather\feather.svg" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\organicfoodicons\organicfoodicons.svg" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\img\loading.svg" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\index.html" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\js\classie.js" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\js\dummydata.js" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\js\main.js" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\js\modernizr-custom.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -340,8 +354,21 @@
     <Content Include="Login_v16\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
     <Content Include="Login_v16\vendor\bootstrap\css\bootstrap.css.map" />
     <Content Include="Login_v16\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\bpicons\bpicons.eot" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\bpicons\bpicons.ttf" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\bpicons\bpicons.woff" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\feather\feather.eot" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\feather\feather.ttf" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\feather\feather.woff" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\feather\feather.woff2" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\organicfoodicons\organicfoodicons.eot" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\organicfoodicons\organicfoodicons.ttf" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\organicfoodicons\organicfoodicons.woff" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\organicfoodicons\organicfoodicons.woff2" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\README.md" />
     <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.11.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -387,6 +414,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Account\FormLogin.cshtml" />
+    <Content Include="Views\Home\HomePage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
