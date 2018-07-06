@@ -3,20 +3,32 @@
 {
     using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
     {
-    @Html.AntiForgeryToken()
+        @Html.AntiForgeryToken()
 
-    <ul class="nav navbar-nav">
-        <li>
-            @Html.ActionLink("Hola " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
-        </li>
-        <li><a  href="javascript:document.getElementById('logoutForm').submit()">Cerrar sesión</a></li>
-    </ul>
+        <div class="pull-left">
+            <ul class="nav pull-left">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="~/MultiLevelMenu/MultiLevelMenu-master/img/user-icon.jpg" alt="foto user" class="img-circle foto_user" style="width: 50px; height: 50px;">
+                        Bienvenido, @User.Identity.GetUserName() <b class="caret"></b>
+                        @*<img src = "<?php echo base_url('assets/fotos_users/'.$camino);?>" alt="foto user" class="img-circle foto_user"> Bienvenido, <?php echo $this->session->usuario; ?> <b class="caret"></b>*@
+                    </a>
+                    <ul style="/*margin-left: 19%*/" class="dropdown-menu">
+                        <li>
+                            <a href="javascript:document.getElementById('logoutForm').submit()">Cerrar sesión</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     }
 }
 else
 {
     <ul class="nav navbar-nav">
-        <li>@Html.ActionLink("Registrarse", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
-        <li>@Html.ActionLink("Iniciar sesión", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        @*<li>@Html.ActionLink("Registrarse", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>*@
+        <li>@Html.ActionLink("Iniciar sesión", "FormLogin", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
     </ul>
 }
+
+

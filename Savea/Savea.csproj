@@ -271,6 +271,7 @@
     <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\feather\feather.svg" />
     <Content Include="MultiLevelMenu\MultiLevelMenu-master\fonts\organicfoodicons\organicfoodicons.svg" />
     <Content Include="MultiLevelMenu\MultiLevelMenu-master\img\loading.svg" />
+    <Content Include="MultiLevelMenu\MultiLevelMenu-master\img\user-icon.jpg" />
     <Content Include="MultiLevelMenu\MultiLevelMenu-master\index.html" />
     <Content Include="MultiLevelMenu\MultiLevelMenu-master\js\classie.js" />
     <Content Include="MultiLevelMenu\MultiLevelMenu-master\js\dummydata.js" />

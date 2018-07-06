@@ -22,19 +22,13 @@
     <!-- menu styles -->
     <link rel="stylesheet" type="text/css" href="~/MultiLevelMenu/MultiLevelMenu-master/css/component.css" />
     <script src="~/MultiLevelMenu/MultiLevelMenu-master/js/modernizr-custom.js"></script>
-    <div class="top">
-        @*@Html.Partial("_LoginPartial")*@
-
-    
-
-            </div>
             <!-- Main container -->
             <div>
                 <!-- Blueprint header -->
                 <header>
                     <div class=" dummy-logo menuClass">
-                        <img src="~/Login_v16/images/bg-01.jpg" />
-                        @Html.Partial("_LoginPartial")
+                   
+                        @Html.Partial("_LoginPartial");
 
                     </div>
                
@@ -45,6 +39,8 @@
                         </nav>
                     </div>
                 </header>
+               @if (User.Identity.IsAuthenticated)
+               {
                 <button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu"></span></button>
                 <nav id="ml-menu" class="menu">
                     <button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
@@ -117,7 +113,11 @@
                         </ul>
                     </div>
                 </nav>
-
+               }
+               else
+               {
+                   //
+               }
             </div>
             <!-- /view -->
             <script src="~/MultiLevelMenu/MultiLevelMenu-master/js/classie.js"></script>
